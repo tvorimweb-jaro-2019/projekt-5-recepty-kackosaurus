@@ -40,3 +40,132 @@ notebook/pc:
 */
 
 /* tvoje styly sem */
+
+.doporucujeme {
+    color: white;
+}
+
+.hlavni-recept {
+    min-height: 200px;
+    background-image: url(images/burger.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    padding: 10px;
+    position: relative;
+}
+
+.recept {
+    min-height: 90px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    padding: 10px;
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.recept2 {
+   background-image: url(images/sushi.jpg);
+}
+
+.recept3 {
+    background-image: url(images/rajcata.jpg);
+}
+
+.recept4 {
+    background-image: url(images/kure.jpg);
+}
+
+.recept5 {
+    background-image: url(images/grilovani.jpg);
+}
+.recept-meta {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.recept-nazev {
+    font-weight: 800;
+}
+
+.hlavni-recept .recept-nazev {
+    font-size: 28px;
+}
+
+.sloupec .recept-nazev {
+    font-size: 18px;
+}
+
+@media (min-width: 480px) {
+    .doporucujeme {
+        display: flex;
+        flex-wrap: wrap;        
+    }
+
+    .hlavni-recept {
+        width: 100%;
+        min-height: 250px;
+        padding: 20px;
+    }
+
+    .sloupec {
+        width: 50%;
+    }
+    
+    .recept {
+        min-height: 150px;
+        padding: 20px;
+    }
+
+    h2 {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .hlavni-recept .recept-nazev {
+        font-size: 36px;
+    }
+    
+    .sloupec .recept-nazev {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 860px) {
+    .doporucujeme {
+        flex-wrap: nowrap;
+    }
+
+    .hlavni-recept {
+        min-height: 400px;
+    }
+
+    .recept {
+        min-height: 200px;
+    }
+
+    .hlavni-recept .recept-nazev {
+        font-size: 48px;
+    }
+    
+    .sloupec .recept-nazev {
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+
+
